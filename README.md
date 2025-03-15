@@ -32,13 +32,16 @@ source install/setup.bash
 ```
 
 ## 🐳 Running with Docker
-### **1️⃣ Build the Docker Image**
+
+Dockerhub : https://hub.docker.com/repository/docker/wakifrajin/voice_assist_bot
+
+### **1️⃣ Pull the Docker Image**
 ```bash
-sudo docker build -t voice_assist_bot .
+docker pull YOUR_DOCKERHUB_USERNAME/voice_assist_bot
 ```
 ### **2️⃣ Run the Container**
 ```bash
-sudo docker run -it --rm voice_assist_bot
+docker run -it --rm YOUR_DOCKERHUB_USERNAME/voice_assist_bot
 ```
 
 ## 🎤 Voice Commands
