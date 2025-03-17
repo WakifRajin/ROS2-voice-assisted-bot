@@ -37,11 +37,11 @@ Dockerhub : https://hub.docker.com/repository/docker/wakifrajin/voice_assist_bot
 
 ### **1️⃣ Pull the Docker Image**
 ```bash
-docker pull YOUR_DOCKERHUB_USERNAME/voice_assist_bot
+docker pull wakifrajin/voice_assist_bot
 ```
 ### **2️⃣ Run the Container**
 ```bash
-docker run -it --rm YOUR_DOCKERHUB_USERNAME/voice_assist_bot
+docker run -it --rm wakifrajin/voice_assist_bot
 ```
 
 ## 🎤 Voice Commands
