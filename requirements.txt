@@ -1,0 +1,4 @@
+speechrecognition
+pyaudio
+numpy
+rclpy
