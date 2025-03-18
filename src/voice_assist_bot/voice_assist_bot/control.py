@@ -23,10 +23,10 @@ class ControlNode(Node):
             twist.linear.x = 0.2
             self.move_for_time(twist, duration)
         elif "left" in command:
-            twist.angular.z = 1
+            twist.angular.z = 1.5
             self.move_for_time(twist, 2)
         elif "right" in command:
-            twist.angular.z = -1
+            twist.angular.z = -1.5
             self.move_for_time(twist, 2)
         elif "heal" in command or "kaboom" in command:
             self.energy = min(100, self.energy + 20)
