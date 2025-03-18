@@ -41,8 +41,29 @@ docker pull wakifrajin/voice_assist_bot
 ```
 ### **2️⃣ Run the Container**
 ```bash
-docker run -it --rm wakifrajin/voice_assist_bot
+docker run --device /dev/snd:/dev/snd -it wakifrajin/voice_assist_bot
 ```
+
+## 🤓 Use the package
+1. Source the package
+   ```bash
+   cd ~/ros2_2025
+   source install/setup.bash
+   ```
+   or, if you use .zsh
+   ```bash
+   cd ~/ros2_2025
+   source install/setup.zsh
+   ```
+2. Startup gazebo turtlebot3
+   ```bash
+   export TURTLEBOT3_MODEL=burger  # or waffle
+   ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+   ```
+3. Run the launch file to run speaker and control nodes
+   ```bash
+   ros2 launch voice_assist_bot voice_assist_launch.py
+   ```
 
 ## 🎤 Voice Commands
 | Command      | Action |
