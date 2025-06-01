@@ -1,7 +1,7 @@
 # Voice Assisted TurtleBot3
 
 ## 📌 Overview
-Voice Assist TurtleBot3 is a ROS2-based project that enables controlling a TurtleBot3 in Gazebo simulation using voice commands. The robot responds to spoken commands for movement and energy management, making it a unique interactive experience.
+Voice Assisted TurtleBot3 is a ROS2-based project that enables controlling a TurtleBot3 in Gazebo simulation using voice commands. The robot responds to spoken commands for movement and energy management, making it a unique interactive experience.
 
 ## 🚀 Features
 - 🎙️ **Voice-Controlled Navigation**: Move the robot using voice commands like "forward", "left", "right".
